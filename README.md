@@ -12,7 +12,7 @@
 
 ### Download
 한국어 관계 추출 데이터셋: [Download](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
----
+
 ### Dataset Details
 데이터셋은 csv 파일 형태로 되어 있습니다.
 
