@@ -5,6 +5,8 @@
 
 학습된 모델을 이용하는 [**한국어 관계 추출 모듈 korre**](https://github.com/datawhales/korre)를 개발하여 공개하였습니다.
 
+<br>
+
 ## Korean Relation Extraction Dataset
 한국어 위키피디아 코퍼스 데이터와 위키데이터를 활용하여 한국어 관계 추출 데이터셋을 구축하였습니다.
 
@@ -33,6 +35,8 @@
 | sentence | subj_name | subj_start_pos | subj_end_pos | subj_type | obj_name | obj_start_pos | obj_end_pos | obj_type | relation |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 마저리 모나한은 미국의 텔레비전 배우, 영화배우, 연극 배우이다. | 마저리 모나한 | 0 | 7 | PERSON | 미국 | 9 | 11 | COUNTRY	| P27 |
+
+<br>
 
 ## Korean Relation Extraction Model
 어느 정도 많이 등장하는 관계에 대해서만 학습을 진행하기 위해 한국어 관계 추출 데이터셋에 존재하는 관계들 중 비율이 0.1% 미만인 것들은 제외시켰습니다.
