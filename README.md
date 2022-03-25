@@ -11,8 +11,8 @@
 한국어 위키피디아 코퍼스에 대해 **Entity Recognition**을 통해 **Entity Extraction**을 진행하고, 이를 위키데이터에 **Entity Linking**하여 관계 트리플 데이터를 얻어 데이터셋으로 구축하였습니다.
 
 ### Download
-**한국어 관계 추출 데이터셋**: [Download](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
-
+한국어 관계 추출 데이터셋: [Download](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
+---
 ### Dataset Details
 데이터셋은 csv 파일 형태로 되어 있습니다.
 
