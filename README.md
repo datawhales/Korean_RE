@@ -24,6 +24,10 @@
 
 - `relation`: 해당 문장에서 두 개체 사이에 존재하는 관계의 위키데이터 id를 의미합니다.
 
+### Relation IDs
+데이터셋에 사용된 관계들의 위키데이터 id는 그 대응 관계가 `data/relation` directory의 `relid2label.json`에 나타나 있습니다.
+
+### Data Example
 | sentence | subj_name | subj_start_pos | subj_end_pos | subj_type | obj_name | obj_start_pos | obj_end_pos | obj_type | relation |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 마저리 모나한은 미국의 텔레비전 배우, 영화배우, 연극 배우이다. | 마저리 모나한 | 0 | 7 | PERSON | 미국 | 9 | 11 | COUNTRY	| P27 |
