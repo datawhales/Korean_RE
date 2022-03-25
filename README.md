@@ -23,3 +23,7 @@
 - `obj_name`, `obj_start_pos`, `obj_end_pos`,	`obj_type`: 문장 내에서 대상(두 번째 개체)에 해당하는 개체의 이름, 시작 인덱스, 끝 인덱스, 개체 타입을 의미합니다.
 
 - `relation`: 해당 문장에서 두 개체 사이에 존재하는 관계의 위키데이터 id를 의미합니다.
+
+| sentence | subj_name | subj_start_pos | subj_end_pos | subj_type | obj_name | obj_start_pos | obj_end_pos | obj_type | relation |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 마저리 모나한은 미국의 텔레비전 배우, 영화배우, 연극 배우이다. | 마저리 모나한 | 0 | 7 | PERSON | 미국 | 9 | 11 | COUNTRY	| P27 |
