@@ -14,7 +14,9 @@
 한국어 관계 추출 데이터셋: [Download](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
 
 ### Dataset Details
-데이터셋은 csv 파일 형태로 되어 있습니다.
+데이터셋은 csv 파일 형태로 되어 있고, 총 75만 881개의 데이터가 존재합니다.
+
+이 데이터셋에 존재하는 관계들의 종류는 총 652개입니다.
 
 - `sentence`: 관계를 추출하고자 하는 문장을 의미합니다.
 
@@ -25,9 +27,14 @@
 - `relation`: 해당 문장에서 두 개체 사이에 존재하는 관계의 위키데이터 id를 의미합니다.
 
 ### Relation IDs
-데이터셋에 사용된 관계들의 위키데이터 id는 그 대응 관계가 `data/relation` directory의 `relid2label.json`에 나타나 있습니다.
+데이터셋에 사용된 관계들의 위키데이터 id는 그 대응 관계가 `./data/relation` directory의 `relid2label.json`에 나타나 있습니다.
 
 ### Data Example
 | sentence | subj_name | subj_start_pos | subj_end_pos | subj_type | obj_name | obj_start_pos | obj_end_pos | obj_type | relation |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 마저리 모나한은 미국의 텔레비전 배우, 영화배우, 연극 배우이다. | 마저리 모나한 | 0 | 7 | PERSON | 미국 | 9 | 11 | COUNTRY	| P27 |
+
+## Korean Relation Extraction Model
+어느 정도 많이 등장하는 관계에 대해서만 학습을 진행하기 위해 한국어 관계 추출 데이터셋에 존재하는 관계들 중 비율이 0.1% 미만인 것들은 제외시켰습니다.
+
+그 결과, 총 97개의 관계로 구성된 69만 8327개의 데이터를 이용하여 학습을 진행하였습니다.
