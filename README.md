@@ -16,10 +16,10 @@
 ### Dataset Details
 데이터셋은 csv 파일 형태로 되어 있습니다.
 
-`sentence`는 관계를 추출하고자 하는 문장을 의미합니다.
+- `sentence`: 관계를 추출하고자 하는 문장을 의미합니다.
 
-`subj_name`, `subj_start_pos`, `subj_end_pos`, `subj_type`는 문장 내에서 주체(첫 번째 개체)에 해당하는 개체의 이름, 시작 인덱스, 끝 인덱스, 개체 타입을 의미합니다.
+- `subj_name`, `subj_start_pos`, `subj_end_pos`, `subj_type`: 문장 내에서 주체(첫 번째 개체)에 해당하는 개체의 이름, 시작 인덱스, 끝 인덱스, 개체 타입을 의미합니다.
 
-`obj_name`, `obj_start_pos`, `obj_end_pos`,	`obj_type`는 문장 내에서 대상(두 번째 개체)에 해당하는 개체의 이름, 시작 인덱스, 끝 인덱스, 개체 타입을 의미합니다.
+- `obj_name`, `obj_start_pos`, `obj_end_pos`,	`obj_type`: 문장 내에서 대상(두 번째 개체)에 해당하는 개체의 이름, 시작 인덱스, 끝 인덱스, 개체 타입을 의미합니다.
 
-`relation`은 해당 문장에서 두 개체 사이에 존재하는 관계의 위키데이터 id를 의미합니다.
+- `relation`: 해당 문장에서 두 개체 사이에 존재하는 관계의 위키데이터 id를 의미합니다.
