@@ -6,7 +6,7 @@
 
 BERT pretrained model로는 [KR-BERT-MEDIUM](https://github.com/snunlp/KR-BERT-MEDIUM)을 활용하였습니다.
 
-한국어 관계 추출 데이터셋 Download: [Google Drive](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
+**한국어 관계 추출 데이터셋**: [Download](https://drive.google.com/file/d/184Qg2yTRKVlxyyhHSvHY7KmG16rQwpdV/view?usp=sharing)
 
-**한국어 관계 추출 모듈 korre** Github: [https://github.com/datawhales/korre](https://github.com/datawhales/korre)
+**한국어 관계 추출 모듈 korre**: [Github](https://github.com/datawhales/korre)
 
